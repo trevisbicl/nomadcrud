@@ -11,6 +11,7 @@ import { StudentTable } from './tables/student.table';
 import { useState } from 'react';
 import { EditStudentForm } from './forms/editStudent.form';
 
+
 function App() {
 
   const studentData = [
