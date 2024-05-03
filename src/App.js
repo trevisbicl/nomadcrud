@@ -59,7 +59,7 @@ function App() {
           <div className="flex-large">
           {editing ? (
             <div>
-              <h2>Edit user</h2>
+              <h2>Edit student</h2>
               <EditStudentForm
                 editing={editing}
                 setEditing={setEditing}
@@ -69,7 +69,7 @@ function App() {
             </div>
           ) : (
             <div>
-              <h2>Add user</h2>
+              <h2>Add student</h2>
               <AddStudentForm addUser={addUser} />
             </div>
           )}
