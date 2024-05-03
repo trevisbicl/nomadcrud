@@ -1,0 +1,58 @@
+.prev {
+    padding: 100px 0;
+    background: url(https://nomad.iuk.kg/wp-content/uploads/2022/07/zatemnenie-TOPa-Nomad-3.jpg) center/cover no-repeat;
+    &__title{
+        color: #c32728;
+        font-weight: 900;
+        font-size: 60px;
+        text-shadow: 1.5px 1.5px 1px #fff; 
+        display: flex;
+        align-items: center;
+        img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        }
+    }
+    &__desc{
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 1.5px 1px #000;
+        font-size: 40px;
+        margin: 0 0 -5px 0;
+        span{
+            color: #fff;
+            text-shadow: 1px 1.5px 1px #000;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        :after{
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 350px;
+            width: 400px;
+            height: 2px;
+            background: #c32728;
+        }
+    }
+    &__btns{
+        display: flex;
+        margin-top: 20px;
+        column-gap: 20px
+    }
+    &__btn{
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    padding: 20px 30px;
+    background: #0000008a;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    text-shadow: 0.5px 0.5px 1px #000;
+    transition: 0.2s;
+    }
+}

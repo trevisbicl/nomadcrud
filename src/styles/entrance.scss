@@ -1,0 +1,19 @@
+.entrance {
+    padding: 100px 0;
+    &__desc{
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 1px 0.5px 1px #555;
+        text-transform: uppercase;
+        background: #c32728;
+        text-align: center;
+        letter-spacing: -0.5px;
+        width: auto;
+        padding: 8px 0 9px;
+        margin: 0 auto;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    }
+    &-info{
+        
+    }
+}

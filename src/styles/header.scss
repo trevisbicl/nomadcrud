@@ -1,0 +1,38 @@
+.header {
+    padding: 10px 0;
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+        &-item{
+            a{
+                color: #222;
+                font-size: 17px;
+                text-transform: uppercase;
+                zoom: 1;
+                letter-spacing: initial;
+                font-weight: bold;
+                transition: 0.2s;
+                &.active{
+                    color: darkred;
+                }
+            }
+            &:hover{
+                transform: translateY(-4px);
+            }
+        }
+    }
+    &__logo{
+        width: 180px;
+        height: 71px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.5s;
+}
+
+.container {
+    width: 1240px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    &-title{
+        font-size: 2rem;
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+}
+.swiper-home{
+    background: #f1f1f1;
+    padding: 100px 0;
+    position: relative;
+    &-before{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 25px;
+        left: 0;
+    }
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.display{
+    display: flex;
+    gap: 5px;
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+}
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 100%;
+    width: 80% ;
+}
+
+.mySwiper {
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    .swiper-slide{
+        width: 100% !important;
+    }
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@import 'header';
+@import 'students';
+@import 'prev';
+@import 'spec';
+@import 'price';
+@import 'entrance';
+@import 'footer';
